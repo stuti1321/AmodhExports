@@ -1,0 +1,305 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+  @import url(https://fonts.bunny.net/css?family=aboreto:400|alex-brush:400);
+.home {
+    width: 100%;
+    
+    
+    margin-top: -60px;
+    
+    
+    
+}
+
+.home img{
+    height:450px;
+    width:100%;
+    overflow-x: hidden;
+    object-fit: fill;
+}
+
+.carousel-style {
+    height: 100% !important;
+    width:100%;
+    overflow-x: hidden;
+}
+.ant-carousel .slick-prev{
+    display: block;
+    background: red
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 244, 227);
+    height:300px;
+    margin-top: 30px;
+}
+.logowel img{
+    height:400px;
+    width:600px;
+    margin: -20px -20px 0 20px;
+}
+.welcome .weldisc{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-family: 'Dancing Script', cursive;
+    
+    text-align: center;
+    margin: 0 80px 0 -20px ;
+    word-wrap: wrap;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../Assets/multi.jpg");
+    height:300px;
+  
+    /* Set a specific height */
+    max-height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -40px;
+  }
+.about{
+    margin-top: 120px;
+    
+    
+}
+.about h2{
+    text-transform: capitalize;
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    color:#343332;
+    font-size: 2.5rem;
+    padding: 50px 0 10px 0;
+    
+    
+}
+.about p{
+    
+
+    
+
+    margin:30px 30px 100px 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    word-wrap: 5px;
+    vertical-align: middle;
+    width:80%;
+    text-align: center;
+    color:#f0eee9;
+
+
+    
+}
+.bigpic{
+    background-color: #f0eee9;
+    display: flex;
+    justify-content: center;
+    z-index: 30px;
+    height:420px;
+    width:100%;
+    margin: 150px 0 160px 0;
+    position: relative;
+    text-align: center;
+
+    >.imgbig img{
+height:600px;
+width:700px;
+margin-top: -90px;
+
+    }
+    .bottom-left{
+        position: absolute;
+        text-transform: uppercase;
+        top:100px;
+        left:200px;
+        text-align: center;
+        font-family:  'Aboreto', display;
+        font-size: 3rem;
+    }
+}
+.mission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:97vw;
+    margin-top:60px;
+    word-wrap: 10px;
+    background-color: #f0eee9;
+    overflow-x: hidden;
+
+}
+.omission{
+    text-align: center;
+    
+    font-family: 'Dancing Script', cursive;
+    color: rgb(151, 152, 153);
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+.right{
+    height:540px;
+}
+.right img{
+width: 580px;
+height: 536px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.left {
+    width:50%;
+    text-align: center;
+    margin: 10px 10px 0 8px;
+    
+    
+
+}
+.left p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+.left img{
+    height:60px;
+    width: 15vw;
+}
+
+
+.right{
+    width:50%;
+    margin-right: -70px;
+}
+.us{
+    width:100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0eee9;
+    height: 450px;
+    
+
+}
+.ustitle{
+    text-align: center;
+    justify-self: center;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(151, 152, 153);
+    font-size: 4.9rem;
+    text-transform: capitalize;
+}
+.usleft img{
+    width: 650px;
+height: 450px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+margin-top: -127px;
+
+}
+.usright{
+    
+        width:60%;
+        text-align: center;
+        margin: 10px 10px 0 10px;
+        
+}
+.usright p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+.usright img{
+    
+        height:60px;
+        width: 15vw;
+    
+}
+.usleft{
+    width:70%;
+    
+    height: 200px;
+    
+}
+.collections1{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0 10px 0 10px;
+    gap:20px;
+   
+
+}
+.colle2 img{
+   
+    width:600px;
+    height:600px;
+    
+
+}
+.colle2 .disc{
+    align-self: center;
+    
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Aboreto', display;
+
+}
+.collections3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 20px;
+    margin-top: 30px;
+    gap:20px;
+}
+.collections3 img{
+    width:400px;
+    height:350px;
+}
+.collections3 .disc2{
+    
+        align-self: center;
+        text-align: center;
+        text-transform: capitalize;
+        font-family: 'Aboreto', display;
+}
+.colle2{
+    position:relative;
+    text-align: center;
+
+}
+.disc{
+    position:absolute;
+    top:150px;
+    left:70px;
+    font-size: 2.7rem;
+    text-align: center;
+    color: hsl(241, 82%, 15%);
+    font-weight: 400;
+}
+.disco{
+    position:absolute;
+    top:170px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    left:110px;
+    font-size: 2.7rem;
+    text-align: center;
+    color: hsl(240, 50%, 98%);
+    font-weight: 600;
+    align-self: center;
+    
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Aboreto', display;
+}

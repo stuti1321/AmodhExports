@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url(https://fonts.bunny.net/css?family=aboreto:400);
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;1,600&display=swap');
+.parfaq {
+
+    /* The image used */
+    background-image: url("../Assets/faqpic.jpg");
+    
+    
+      background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.256),
+        rgba(0, 0, 0, 0.253)
+      ),
+      url("../Assets/faqpic.jpg");
+      height: 500px;
+  
+    /* Set a specific height */
+    max-height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+    }
+    .iconfaq{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    img{
+        height:180px;
+        width:180px;
+
+    }
+    .que{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 40px;
+        h3{
+            color: rgb(172, 149, 37);
+            font-family:'Cormorant', serif ;
+            font-size: 1.5rem;
+            
+        }
+    }

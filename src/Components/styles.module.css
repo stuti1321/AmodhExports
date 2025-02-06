@@ -1,0 +1,51 @@
+
+  .hamburger {
+    position: relative;
+    padding: 0rem;
+    background-color: white;
+    width:30px;
+    margin-top: -70px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding-bottom: -10px;
+    display: grid;
+    
+  }
+  .hamburger a{
+    color: rgb(254, 254, 254);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    
+  }
+  .hamburger a:hover{
+    color: rgb(237, 193, 123);
+  }
+  
+  .hamburgerPosition {
+    right: 0;
+    top: 2rem;
+  }
+  
+  .headerNav {
+    height: 3rem;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .headerSubNav {
+    display: flex;
+    
+    @media (min-width: 769px) {
+      display: none;
+    }
+  }
+  
+  .iconStyle {
+    width: 2rem;
+    height: 2rem;
+    color: rgb(214, 151, 79);
+  }
+  .hamb{
+    background-color: aliceblue;
+  }
+
+  

@@ -1,0 +1,245 @@
+@import url(https://fonts.bunny.net/css?family=aboreto:400|abril-fatface:400|actor:400|akronim:400|alegreya-sans-sc:500,800|alex-brush:400|allerta:400|amita:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url(https://fonts.bunny.net/css?family=aboreto:400|abril-fatface:400|actor:400|akronim:400|alegreya-sans-sc:500,800|alex-brush:400|allerta:400|amita:400,700);
+.paralle {
+    /* The image used */
+    background-image: url("../Assets/4fiup.jpg");
+    
+    
+      background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.274),
+        rgba(0, 0, 0, 0.313)
+      ),
+      url("../Assets/8fiup.jpg");
+      height: 400px;
+  
+    /* Set a specific height */
+    max-height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+    }
+    .paralle h2{
+     font-family: 'Aboreto', display;
+font-style: italic;
+font-size: 3.5rem;
+
+    }
+    .introp p{
+        color: black;
+        text-align: center;
+        width:90%;
+        margin: 0px 30px 120px 60px;
+        word-spacing: 3px;
+        font-size: 1.1rem;
+        font-family: 'Comfortaa', cursive;
+    }
+    .missions{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        margin-top:60px;
+        word-wrap: 10px;
+        background-color: #f0eee9;
+    }
+    .omissions{
+        margin: 80px 20px -80px 40px;
+        padding-bottom: 80px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(151, 152, 153);
+        font-size: 2.5rem;
+    }
+    .rights img{
+    width: 620px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    }
+    .lefts {
+        width:50%;
+        text-align: center;
+        margin: 10px 10px 0 8px;
+        
+        
+    
+    }
+    .lefts p{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 1.3rem;
+    }
+    .lefts img{
+        height:60px;
+        width: 15vw;
+    }
+    
+    
+    .rights{
+        width:50%;
+        margin-right: 0px;
+    }
+    .uss{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        margin-top:60px;
+        word-wrap: 10px;
+        background-color: #f0eee9;
+        height:400px;
+        
+    
+    }
+    .usstitle{
+        margin: 50px 40px 20px 40px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(151, 152, 153);
+        font-size: 2.5rem;
+    }
+    .ussleft img{
+        width: 650px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: -100px;
+    
+    }
+    .ussright{
+        
+            width:60%;
+            text-align: center;
+            margin: 10px 10px 0 10px;
+    }
+    .ussright p{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 1.3rem;
+    }
+    .ussright img{
+        
+            height:60px;
+            width: 15vw;
+        
+    }
+    .ussleft{
+        width:70%;
+        
+        height: 200px;
+        
+    }
+    .introp{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        img{
+            height:65px;
+            width:160px;
+            margin: 120px 30px 40px 540px;
+        }
+    }
+    .parl{
+        background-image: url("../Assets/5fiup.jpg");
+    
+    
+      background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.274),
+        rgba(0, 0, 0, 0.313)
+      ),
+      url("../Assets/1fiup.jpg");
+      height: 400px;
+  
+    /* Set a specific height */
+    max-height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .parl h2{
+        font-family: 'Amita', handwriting;
+font-style: italic;
+color: white;
+font-size: 2rem;}
+    .intro2 p{
+        color: black;
+        text-align: center;
+        width:90%;
+        margin: 0px 30px 120px 60px;
+        word-spacing: 3px;
+        font-size: 1.1rem;
+        font-family: 'Comfortaa', cursive;
+    }
+    .intro2{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        img{
+            height:65px;
+            width:110px;
+            margin: 120px 30px 40px 540px;
+        }
+    }
+    .missionss{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        margin-top:0px;
+        word-wrap: 10px;
+        background-color: #f0eee9;
+    }
+    .omissionss{
+        margin: 40px 20px -80px 40px;
+        padding-bottom: 80px;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(151, 152, 153);
+        font-size: 2.5rem;
+    }
+    .rightss img{
+    width: 620px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    }
+    .leftss {
+        width:50%;
+        text-align: center;
+        margin: 10px 10px 0 8px;
+        
+        
+    
+    }
+    .leftss p{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 1.3rem;
+    }
+    .leftss img{
+        height:60px;
+        width: 15vw;
+    }
+    
+    
+    .rightss{
+        width:50%;
+        margin-right: 0px;
+    }
+    

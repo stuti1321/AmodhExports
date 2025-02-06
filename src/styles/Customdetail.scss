@@ -1,0 +1,31 @@
+.details{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconcustom{
+    height:500px;
+    width:500px;
+    img{
+        height:150px;
+        width:150px;
+    }
+}
+.de{
+    height:500px;
+    width:500px;
+
+}
+.de h2{
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+.de p{
+    text-align: center;
+}

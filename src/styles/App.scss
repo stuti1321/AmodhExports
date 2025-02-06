@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    
+
+    padding: 0%;
+    font-family: "Roboto",sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+    
+
+  
+    
+    
+
+ 
+
+    
+    
+}
+.bm-burger-button {
+  
+    width: 36px;
+    height: 30px;
+    left: 36px;
+  
+    top: 36px;
+  }
+  
+  .bm-burger-bars {
+    background: #e9ebf3;
+  }  
+  
+  .bm-burger-bars-hover {
+    background: #a90000;
+  
+  }
+  
+  .bm-cross-button {
+    height: 24px;
+    width: 2px;
+  }
+  
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  .bm-menu {
+    background: #373a47;
+    padding: 0.3rem 0.3rem 0;
+    font-size: 1.15em;
+  }
+  
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  .bm-item-list {
+  
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  .bm-item {
+    display: inline-block;
+  }
+  
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  /* styling next link component so that will be a column list of links*/
+  

@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nanum+Myeongjo&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&family=Nanum+Myeongjo&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;1,600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+  @import url(https://fonts.bunny.net/css?family=aboreto:400|abril-fatface:400|actor:400|akronim:400|alegreya-sans-sc:500,800|alex-brush:400|allerta:400|amita:400,700);
+.parall{
+    background-image: url("../Assets/mad.jpg");
+    
+    
+      background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.274),
+        rgba(0, 0, 0, 0.313)
+      ),
+      url("../Assets/6fiup.jpg");
+      height: 400px;
+  
+    /* Set a specific height */
+    max-height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+    }
+
+.parall h2{
+    
+        font-size: 3.5rem;
+        color: rgb(248, 244, 244);
+        text-align: center;
+        font-family: 'Aboreto', display;
+        font-style: italic;
+        
+    
+}
+.customdetail{
+    background-color: rgb(251, 250, 249);
+    width:100%;
+    height:300px;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    img{
+        height:80px;
+        width:80px;
+        margin-top: -80px;
+        margin-bottom: 30px;
+    }
+    
+
+    .custom{
+        width:90%;
+        font-family: 'Cormorant', serif;
+        font-size: 2rem;   
+        color: rgb(162, 163, 164)     ;
+    margin:130px 60px 20px 60px;
+    position:absolute;
+    
+    text-align: center;
+    }
+    .customdetail{
+        margin:70px 10px 30px 10px;
+    }
+    p{
+
+        position:absolute;
+        text-align: center;
+        text-transform: capitalize;
+        top:15rem;
+        left:18rem;
+        font-family: 'Cormorant', serif;
+        font-size: 1.3rem;
+
+        
+    }
+    span{
+        color: rgb(221, 199, 152);
+        position:absolute;
+        text-align: center;
+        top:2rem;
+        left:100rem;
+        font-family:'Cormorant', serif ;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        cursor: none;
+
+    }
+    .typec{
+        color: rgb(221, 199, 152);
+        position:absolute;
+        text-align: center;
+        top:10.2rem;
+        left:43rem;
+        font-family: 'Cormorant', serif;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        cursor: none;
+    }
+}
+.customsform{
+    margin-top: -250px;
+    padding-top: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.forms{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+    margin-top: -35px;
+    
+    
+}
+ 
+  .forms h1{
+    margin:30px 0 0px 240px;
+    font-size: 2.6rem;
+    color: #726f6f;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .forms .line21{
+    height:1.5px;
+border-style: none;
+background-color: #cfcecd;
+width:550px;
+margin-top: 20px;
+margin-left: 120px;
+  }
+  
+    .sames{
+        display:flex;
+        align-items: center;
+        justify-content:space-around;
+        margin-left:-50px;
+        width: 100%;
+        margin-top: 40px;
+        gap:-50px;
+        
+        
+    } 
+    .sames div{
+       
+        
+        display: flex;
+        border-color: black;
+        
+        
+       
+
+        
+        
+    }
+    
+        .icons {
+            
+            background: rgb(244, 234, 207);
+            color: white;
+            width: 40px;
+            max-width: 40px;
+           
+            height:40px;
+            color: black;
+            align-items: center;
+            justify-content: center;
+            border-color: black;
+          }
+    .sames input{
+        
+        width:200px;
+        height:40px;
+    }
+    .forms textarea{
+        margin-right: 100px;
+        width:800px;
+        margin-top: 40px;
+        height:400px;
+    }
+
+
+      
+                         
+                     
+            .btn-grad {
+                background-image: linear-gradient(to right, white 0%, rgb(236, 216, 158)  51%, white  100%);
+                margin: 10px;
+            margin-left: 280px;
+        
+                padding: 15px 60px;
+                text-align: center;
+                text-transform: uppercase;
+                transition: 0.5s;
+                background-size: 200% auto;
+                color: rgb(18, 16, 16);            
+                box-shadow: 0 0 20px #eee;
+                border-radius: 10px;
+                border-color: rgb(234, 181, 60);
+                display: block;
+              }
+    
+              .btn-grad:hover {
+                background-position: right center; /* change the direction of the change here */
+                color: #fff;
+                text-decoration: none;
+              }
+              #myFile{
+font-size: 1.0rem;
+              }
+              .sendfile{
+                
+                margin-top: 10px;
+                
+              }
+             
+      .detailextend p{
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.4rem;
+      }
+      .details{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .design{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        gap:-300px;
+        
+    }
+    .iconcustom{
+        height:500px;
+        width:500px;
+        img{
+            height:130px;
+            width:130px;
+            margin-left: 60px;
+            margin-top: 30px;
+        }
+    }
+    .customde{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    }
+    .de{
+        margin-top: -300px;
+    
+    }
+    .de h2{
+        font-size: 2.5rem;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        
+        text-align: center;
+
+    
+    }
+    .design p{
+        text-align: center;
+       
+        width:90%;
+        margin-top: -10px;
+    } 
+    .design2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0px;
+      gap:-300px;
+      margin-top:-300px;
+    }
+    .design2 p{
+      text-align: center;
+       
+      width:90%;
+      margin-top: -10px;
+    } 
+   
+   
+    .sameform{
+      display:flex;
+      align-items: center;
+      justify-content:space-around;
+      margin-left:0px;
+      width: 100%;
+      margin-top: 40px;
+      gap:-90px;
+      margin-top: 100px;
+      
+      
+  } 
+  .sameform div{
+     
+      
+      display: flex;
+      border-color: #000000;
+      margin-left: -60px;
+      
+      
+      
+     
+
+      
+      
+  }
+  .sameform input{
+        
+    width:230px;
+    height:40px;
+}
+            
+            
+        
